@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(rgba(251, 246, 246, 0.6), rgba(197, 193, 193, 0.6)), url('./assets/fondo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

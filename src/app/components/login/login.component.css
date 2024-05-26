@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+  position: relative;
+  font-family: 'Overpass', sans-serif;
+}
+
+body,html
+{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+
+.userlogin
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items:center;
+  justify-items:center;
+  width: 100%;
+  height: 100%;
+  background:var(--prettylogin);
+}
+
+.userlogin > div
+{
+  padding: 40px;
+
+}
+
+.login-title
+{
+  font-size: 42px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+
+}
+
+.fielde
+{
+  display: block;
+  width: 100%;
+  margin: 4px;
+}
+
+.fielde > input
+{
+  display: block;
+  border:0;
+  background: none;
+  border-bottom: 1px #080808 solid;
+  margin-bottom: 20px;
+  outline: none;
+  width: 100%;
+}
+
+
+
+.button-ok
+{
+  display: inline-block;
+  background: #0079bf;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 24px;
+  border-radius: 12px;
+  text-decoration: none;
+}
