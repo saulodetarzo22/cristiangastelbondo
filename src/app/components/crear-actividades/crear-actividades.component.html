@@ -4,6 +4,7 @@
     <div *ngIf="formularioIncorrecto" class="text-center">
         <span class="badge bg-danger">TODOS LOS CAMPOS SON OBLIGATORIOS</span>
     </div>
+    <form (submit)="agregarActividad()">
     <div class="form-group mb-3">
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" [(ngModel)]="nombre" class="form-control" placeholder="Ingrese su nombre">
@@ -20,6 +21,7 @@
         <label for="descripcion">Descripcion</label>
         <textarea id="descripcion" rows="3" [(ngModel)]="descripcion" class="form-control" placeholder="Ingrese una descripcion detallada de las actividades"></textarea>
     </div>
-    <button style="width: 100%;" (click)="agregarActividad()" class="btn btn-primary btn-block">Agregar Actividad</button>
-</div>
+    <button style="width: 100%;" (click)="agregarActividad()" class="btn btn-primary btn-block" value="registrarse">Agregar Actividad</button>
+  </form>
+  </div>
 </div>
